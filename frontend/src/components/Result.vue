@@ -47,6 +47,7 @@ export default {
       api.deletemember(id)  
         console.log(id);
         window.location.reload();
+        alert("Delete Complete!!");
     }
   },
   mounted() {

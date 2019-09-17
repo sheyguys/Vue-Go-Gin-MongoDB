@@ -101,6 +101,7 @@ import api from "../api";
           this.member_address,
           this.member_phone
         );
+        alert("Post Complete!!");
       },
       onReset(evt) {
         evt.preventDefault()
