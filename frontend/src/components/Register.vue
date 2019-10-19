@@ -89,7 +89,6 @@ import api from "../api";
     methods: {
       onSubmit(evt) {
         evt.preventDefault()
-        window.location='/result'
         this.member_facebook = this.profiledata.fullname,
         this.member_email = this.profiledata.email,
           api.postMember(
@@ -102,6 +101,7 @@ import api from "../api";
           this.member_phone
         );
         alert("Post Complete!!");
+        window.location='/result'
       },
       onReset(evt) {
         evt.preventDefault()
